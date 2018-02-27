@@ -64,6 +64,11 @@ h2 {
   text-transform: uppercase;
 }
 
+.img-nav {
+  max-width: 50px;
+  max-height: auto;
+}
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
