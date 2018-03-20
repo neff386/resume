@@ -4,7 +4,7 @@
     "version": "4.0.0",
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "scripts": {
-        "start": "node js/index.js"
+        "start": "node public/js/index.js"
     },
     "dependencies": {
         "bootstrap": "4.0.0",
