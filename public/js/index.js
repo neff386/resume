@@ -7,7 +7,7 @@ app.use(express.static('public'));
 
 
 app.get('/resume', function (req, res) {
-    res.download(path.resolve('docs/Resume_of_David_Turner.docx'), 'Resume Of David Turner');
+    res.download(path.resolve('docs/Resume_of_David_Turner.docx'), 'Resume_Of_David_Turner.docx');
 });
 
 app.listen(PORT, function(err) {
