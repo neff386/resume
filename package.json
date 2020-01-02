@@ -7,7 +7,7 @@
         "start": "node public/js/index.js"
     },
     "dependencies": {
-        "bootstrap": "4.0.0",
+        "bootstrap": "4.4.1",
         "devicons": "^1.8.0",
         "dotenv": "^4.0.0",
         "jquery": "3.3.1",
