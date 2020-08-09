@@ -12,6 +12,6 @@ app.get('/resume', function (req, res) {
 
 app.listen(PORT, function(err) {
 
-    console.log('running');
+    console.log(`running @: http://localhost:${PORT}/`);
     
 });
