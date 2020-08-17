@@ -74,6 +74,36 @@
     </div>
   </nav>
 
+  <div class="contact-section bg-primary transform" id="contact">
+    <button class="btn transform-btn" id="toggle-contact" style="box-shadow: none!important;">></button>
+    <form id="contact-form">
+      <span class="name-input form-row">
+        <span class="fName-section">
+        <input type="text" id="fName" name="fName" placeholder="First Name" required>
+      </span>
+      <span class="lName-section">
+        <input type="text" id="lName" name="lName" placeholder="Last Name" required>
+      </span>
+      </span>
+      <span class="email-input">
+        <input type="email" id="email" name="email" placeholder="Email" required>
+      </span>
+      <span class="need-dropdown">
+        <label for="need">Need:</label>
+        <select id="need" name="need">
+          <option value="website">Website</option>
+          <option value="app">App</option>
+          <option value="app">App</option>
+          <option value="app">App</option>
+          <option value="app">App</option>
+        </select>
+      </span>
+      <span class="submit-section">
+        <input class="submit-btn btn btn-success" type="submit" value="Submit">
+      </span>
+    </form>
+  </div>
+
   <div class="container-fluid p-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
